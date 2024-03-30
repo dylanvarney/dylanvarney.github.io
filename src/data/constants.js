@@ -2,10 +2,9 @@ export const Bio = {
   name: "Dylan Varney",
   roles: [
     "Systems Administrator",
-    "Okta Certified Professional",
   ],
   description:
-    "I hold a Diploma in Information Technology from Griffith College, where I gained foundational knowledge and skills in IT systems and solutions. Since Nov 2022, I have been working as a Systems Administrator at a leading insurance provider, where I design and implement various identity and access management projects and processes, leveraging my core competencies in AD, IAM, SCIM, and SSO. In my current role, I have successfully delivered attribute level sourcing from multiple people systems into Active Directory, a new OU structure for AD, and SCIM integration for dozens of enterprise applications, among other initiatives. These projects have enabled the organization to streamline and automate its identity and access management, improve its security and compliance, and enhance its user experience and productivity. I work with a diverse and collaborative team of IT professionals, and I contribute to the team's goals and vision by sharing my expertise, learning from others, and supporting the continuous improvement of our systems and practices. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
+    "I design and implement various identity and access management projects and processes, leveraging my core competencies in AD, IAM, IaC. In my current role, I have successfully delivered attribute level sourcing from multiple people systems into Active Directory, a new OU structure for AD, and SCIM integration for dozens of downstream enterprise applications, among other initiatives. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
   github: "https://github.com/dylanvarney",
   linkedin: "https://www.linkedin.com/in/dylan-varney/",
 };

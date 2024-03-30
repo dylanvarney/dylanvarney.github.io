@@ -141,22 +141,11 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
+  background: rgb(26,0,138);
+  background: -moz-linear-gradient(225deg, rgba(26,0,138,1) 0%, rgba(0,59,131,1) 37%, rgba(0,96,116,1) 100%);
+  background: -webkit-linear-gradient(225deg, rgba(26,0,138,1) 0%, rgba(0,59,131,1) 37%, rgba(0,96,116,1) 100%);
+  background: linear-gradient(225deg, rgba(26,0,138,1) 0%, rgba(0,59,131,1) 37%, rgba(0,96,116,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a008a",endColorstr="#006074",GradientType=1);
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
   font-weight: 600;
