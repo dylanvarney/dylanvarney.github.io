@@ -99,13 +99,6 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="Projects">
       <Wrapper>
         <Title>Projects</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          I have worked on a wide range of projects. Here are some of my projects.
-        </Desc>
         <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}

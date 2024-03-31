@@ -55,14 +55,6 @@ const Education = () => {
     <Container id="Education">
       <Wrapper>
         <Title>Education</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          My educational details are as follows.
-        </Desc>
-
         <VerticalTimeline>
           {education.map((education, index) => (
             <EducationCard key={`education-${index}`} education={education} />

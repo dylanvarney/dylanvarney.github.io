@@ -55,15 +55,6 @@ const Experience = () => {
     <Container id="Experience">
       <Wrapper>
         <Title>Experience</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          My work experience and working at different
-          companies and on projects.
-        </Desc>
-
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
