@@ -248,6 +248,7 @@ const HeroBgAnimation = () => (
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
         <radialGradient
+        
           id="paint2_radial"
           cx="0"
           cy="0"

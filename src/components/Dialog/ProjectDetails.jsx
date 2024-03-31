@@ -206,7 +206,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
               <Tag>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{project?.description}</Desc>
+          <Desc><pre>{project?.description}</pre></Desc>
           {project.member && (
             <>
               <Label>Members</Label>

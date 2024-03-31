@@ -108,12 +108,25 @@ const Projects = ({ openModal, setOpenModal }) => {
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
-            active={toggle === "directory"}
-            onClick={() => setToggle("directory")}
+            active={toggle === "all"}
+            onClick={() => setToggle("all")}
           >
-            Directory
+            ALL
           </ToggleButton>
           <Divider />
+          <ToggleButton
+            active={toggle === "identity"}
+            onClick={() => setToggle("identity")}
+          >
+            IDENTITY
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "endpoint"}
+            onClick={() => setToggle("endpoint")}
+          >
+            ENDPOINT
+          </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

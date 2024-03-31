@@ -8,15 +8,6 @@ const Top = styled.div`
   max-width: 100%;
   gap: 12px;
 `;
-const Image = styled.img`
-  height: 50px;
-  border-radius: 10px;
-  margin-top: 4px;
-
-  @media only screen and (max-width: 768px) {
-    height: 40px;
-  }
-`;
 const Body = styled.div`
   width: 100%;
   display: flex;
@@ -50,21 +41,13 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
 
 const Description = styled.div`
   width: 100%;
   font-size: 15px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -79,14 +62,14 @@ const EducationCard = ({ education }) => {
           width="100%"
           height="100%"
           alt={education.school}
-          style={{ borderRadius: "50%", objectFit: "cover" }}
+          style={{ borderRadius: "50%", objectFit: "fill" , background: "#fff"}}
           src={education.img}
         />
       }
       contentStyle={{
         display: "flex",
         flexDirection: "column",
-        gap: "12px",
+        gap: "0px",
         background: "#1d1836",
         color: "#fff",
         boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
@@ -101,19 +84,13 @@ const EducationCard = ({ education }) => {
       date={education.date}
     >
       <Top>
-        <Image src={education.img} />
         <Body>
           <Name>{education.school}</Name>
           <Degree>{education.degree}</Degree>
-          <Date>{education.date}</Date>
         </Body>
       </Top>
-      <Grade>
-        <b>Grade :</b>
-        {education.grade}
-      </Grade>
       <Description>
-        <Span>{education.desc}</Span>
+        <Span><pre>{education.desc}</pre></Span>
       </Description>
     </VerticalTimelineElement>
   );
