@@ -40,7 +40,7 @@ export const Bio = {
     "HomeLab Techie",
   ],
   description:
-    "I am responsible for the design, implementation, and ongoing management of Infrastructure, Automation and IAM (Identity & Access Management) projects. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
+    "I design and implement Infrastructure, Automation and IAM (Identity & Access Management) projects. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
   github: "https://github.com/dylanvarney",
   linkedin: "https://www.linkedin.com/in/dylan-varney/",
   resume: "https://docs.google.com/document/d/11ZZQgDib-65nbYv1z_6ZhtqIO_MUj0B9/edit?usp=sharing&ouid=115185625270761438730&rtpof=true&sd=true",
@@ -149,7 +149,7 @@ export const experiences = [
     role: "Systems Administrator",
     company: "Auto & General",
     date: "Oct 2022",
-    desc: "Worked with business units across the organisation to implement SSO and SCIM for platforms; Managed AWS Infrastructure through Terraform; Automated tasks through Powershell and API; Maintained Active Directory and Okta; Followed the Change Management process.",
+    desc: "Design, implementation, and ongoing management of Infrastructure, Automation and IAM (Identity & Access Management) projects. Worked with business units across the organisation to implement SSO and SCIM for platforms; Managed AWS Infrastructure through Terraform; Automated tasks through Powershell and API; Maintained Active Directory and Okta; Followed the Change Management process.",
     skills: [
       "Okta",
       "Active Directory",
@@ -175,7 +175,7 @@ export const experiences = [
     role: "Senior Desktop Support Engineer",
     company: "Auto & General",
     date: "Oct 2020 - Oct 2022",
-    desc: "As a Senior Desktop Support Engineer, my day was spent maintaining a large-scale SCCM Infrastructure, Windows Endpoints and VDIs; Packaging and deploying software and updates for endpoints; Creating internal and customer support documentation for Windows 10; Follow the Change Management process.",
+    desc: "As a Senior Desktop Support Engineer, I maintained a large-scale SCCM Infrastructure, Windows Endpoints and VDIs; Packaged and deployed software and updates for endpoints; Created internal and customer support documentation for Windows 10; Followed the Change Management process.",
     skills: [
       "SCCM",
       "Active Directory",
