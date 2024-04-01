@@ -40,7 +40,7 @@ export const Bio = {
     "HomeLab Techie",
   ],
   description:
-    "I implement Infrastructure projects, currently focusing on Identity & Access Management (IAM) and automation. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
+    "I am responsible for the design, implementation, and ongoing management of Infrastructure, Automation and IAM (Identity & Access Management) projects. I am motivated by the opportunity to solve complex IT challenges, and learn new technologies.",
   github: "https://github.com/dylanvarney",
   linkedin: "https://www.linkedin.com/in/dylan-varney/",
   resume: "https://docs.google.com/document/d/11ZZQgDib-65nbYv1z_6ZhtqIO_MUj0B9/edit?usp=sharing&ouid=115185625270761438730&rtpof=true&sd=true",
@@ -79,6 +79,10 @@ export const skills = [
         name: "Windows Server",
         image: icon_windows,
       },
+      {
+        name: "SCCM",
+        image: icon_windows,
+      }
     ],
   },
   {
@@ -133,10 +137,6 @@ export const skills = [
       {
         name: "Postman",
         image: icon_postman,
-      },
-      {
-        name: "Notion",
-        image: icon_notion,
       },
     ],
   },
